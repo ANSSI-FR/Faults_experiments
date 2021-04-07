@@ -5,7 +5,7 @@ This repository contains perturbation experiments done by the hardware security
 lab of the ANSSI. It is meant to allow the hardware security community to have
 access to the results published by the agency.
 
-## Maintener
+## Maintainer
 - Thomas Trouchkine (thomas.trouchkine@ssi.gouv.fr)
 
 ## Copyright and license
