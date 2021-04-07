@@ -57,3 +57,44 @@ analyze these results.
 
 ### Using the ANSSI tool for analyzing the results
 
+1. Clone the fault experiments and fault analyzer repositories:
+``` sh
+git clone git@github.com:ANSSI-FR/Faults_experiments.git
+git clone git@github.com:ANSSI-FR/Faults_analyzer.git
+```
+
+2. Go to the fault analyzer directory and change the `"main_dir"` parameter of
+   the `config.py` file to `../Faults_experiments`:
+``` sh
+cd Faults_analyzer
+# Edit config.py
+```
+
+``` python
+CONFIG = {
+    "main_dir": "../Faults_experiments/", # <- edit this line
+    "results_dir": "results/",
+    "manips_dir": "manips/",
+    "parameters_dir": "parameters/",
+    "tikz_dir": "tikz/"
+}
+```
+
+3. Initialize the fault analyzer
+
+``` sh
+# In Faults_analyzer/
+make init
+```
+
+4. Run the fault analyzer
+
+``` sh
+# In Faults_analyzer/
+make run
+```
+
+Here you are ! You can now analyze the experiments !
+
+For more information on how to use the fault analyzer, see [its
+documentation](https://anssi-fr.github.io/Faults_analyzer/).
