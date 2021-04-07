@@ -98,3 +98,15 @@ Here you are ! You can now analyze the experiments !
 
 For more information on how to use the fault analyzer, see [its
 documentation](https://anssi-fr.github.io/Faults_analyzer/).
+
+## Available experiments
+- `bcm2711b0_orrR5_iv5_laser_20x_4v_20ns_carto_core`: in this experiment we used
+  a laser to perturb a bcm2711b0 die. We tested several positions over the cores
+  of the circuit.
+- `bcm2837_AES_iv1_em`: in these experiments, we used EMFIs to perturb the
+  execution of the OpenSSL AES running on a bcm2837 (on a Raspberry Pi 3 board).
+- `bcm2837_[andR8,movallreg,orrR5]_iv[1,3,4]`:in these experiments, we used EMFI
+  to perturb the execution of simple test programs over Linux on a bcm2837 with
+  various initial values for the registers.
+- `bcm2837_orrx3x3_iv1_EM_fix`: in this experiment, we used EMFI to perturb the
+  execution of a simple test program bare metal on a bcm2837.
