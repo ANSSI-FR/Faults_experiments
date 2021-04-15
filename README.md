@@ -110,3 +110,6 @@ documentation](https://anssi-fr.github.io/Faults_analyzer/).
   various initial values for the registers.
 - `bcm2837_orrx3x3_iv1_EM_fix`: in this experiment, we used EMFI to perturb the
   execution of a simple test program bare metal on a bcm2837.
+- `intelcorei3_mov/orRbx_iv1_em_fix`: in these experiments, we used EMFI to
+  perturb the execution of simple test programs over Linux on an Intel Core i3
+  processor.
