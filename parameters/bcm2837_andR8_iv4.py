@@ -25,5 +25,7 @@ params = {
     "data_format": "0x{:08x}",
     "nb_bits": 32,
     "log_flag_begin": "FlagBegin",
-    "log_flag_end": "FlagEnd"
+    "log_flag_end": "FlagEnd",
+    "coordinates_name": ["plan_ygrid", "plan_xgrid"],
+    "stage_coordinates": ["stage_y", "stage_x"]
 }
