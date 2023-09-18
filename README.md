@@ -1,5 +1,9 @@
 # Perturbation experiments
 
+## Archiving
+
+This project is not maintained anymore and has been archived on September 18th, 2023. No further work is expected to happen here.
+
 ## Introduction
 This repository contains perturbation experiments done by the hardware security
 lab of the ANSSI. It is meant to allow the hardware security community to have
